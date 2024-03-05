@@ -1,0 +1,167 @@
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.menu-navegacion {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-navegacion li:last-child {
+    margin-right: 0;
+}
+
+.menu-navegacion a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-navegacion a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#inicio {
+    background-color: black;
+    color: white;
+}
+
+#social-media,
+#proximamente {
+    background-color: #000;
+    color: #fff;
+}
+
+#identidad-visual,
+#sobre-mi {
+    background-color: #fff;
+    color: #000;
+}
+
+#social-media img,
+#identidad-visual img,
+#proximamente img,
+.foto-perfil img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Añadido para la transición */
+}
+
+#social-media img:hover,
+#identidad-visual img:hover,
+#proximamente img:hover,
+.foto-perfil img:hover {
+    transform: scale(1.05); /* Efecto de "movimiento" al hacer hover */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebe5f;
+}
+
+.contacto li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.contacto a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes específicos para Sobre Mí */
+.sobre-mi-section {
+    background-color: #f0f0f0; /* Fondo ligeramente gris para destacar la sección */
+    color: #333; /* Color de texto oscuro para contraste */
+    padding: 50px 10px; /* Ajuste de padding */
+    display: flex;
+    align-items: center; /* Alineación central de todos los elementos */
+    justify-content: center;
+}
+
+.sobre-mi-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.foto-perfil img {
+    width: 200px; /* Ajuste del tamaño de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 50%; /* Redondeo de bordes */
+}
+
+.sobre-mi-texto {
+    max-width: 600px;
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+.sobre-mi-texto h2 {
+    color: #333;
+}
+
+.sobre-mi-texto p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0; /* Remover el padding adicional */
+}
+
+@media (max-width: 768px) {
+    .sobre-mi-content {
+        flex-direction: column;
+    }
+}
+
+
